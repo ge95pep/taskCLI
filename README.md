@@ -31,21 +31,26 @@ The executable taskCLI.exe (or taskCLI on Linux/Mac) will be generated in the bu
 
 ## Usage Example
 * Adding a new task
-taskCLI add "Buy groceries"
-** Output: Task added successfully (ID: 1)
+  ```bash
+   taskCLI add "Buy groceries"
+Output: Task added successfully (ID: 1)
 
 * Updating and deleting tasks
-taskCLI update 1 "Buy groceries and cook dinner"
-taskCLI delete 1
+  ```bash
+   taskCLI update 1 "Buy groceries and cook dinner"
+   taskCLI delete 1
 
 * Marking a task as in progress or done
-taskCLI mark 1 in-progress
-taskCLI mark 2 done
+  ```bash
+   taskCLI mark 1 in-progress
+   taskCLI mark 2 done
 
 * Listing all tasks
-taskCLI list
+  ```bash
+   taskCLI list
 
 * Listing tasks by status
-taskCLI list done
-taskCLI list todo
-taskCLI list in-progress
+  ```bash
+   taskCLI list done
+   taskCLI list todo
+   taskCLI list in-progress
