@@ -1,0 +1,49 @@
+# --- Prerequisites ---
+*.d
+
+# --- Compiled Object files ---
+*.slo
+*.lo
+*.o
+*.obj
+
+# --- Static and Dynamic Libraries ---
+*.gch
+*.pch
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+*.out
+
+# --- Executables ---
+*.exe
+*.out
+*.app
+
+# --- Build Folders ---
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# --- IDEs and Tools ---
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- CMake (If you use it) ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+Makefile
